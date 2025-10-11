@@ -1,4 +1,4 @@
-const backendUrl = "https://tm-backend-10.onrender.com";
+const backendUrl = "https://tm-backend-10.onrender.com/tasks";
 const token = localStorage.getItem("token");
 if (!token) window.location.href = "index.html";
 
@@ -156,3 +156,4 @@ showCompleted.addEventListener("click", () => setActiveFilter("completed"));
 
 addBtn.addEventListener("click", addTask);
 fetchTasks();
+
